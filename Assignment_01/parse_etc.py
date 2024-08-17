@@ -7,4 +7,5 @@ for line in passwd:
     user_data=[splited_line[5],splited_line[2]]
     users.update({username:user_data})
 
+print(users)
 passwd.close()
